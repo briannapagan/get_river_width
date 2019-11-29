@@ -2,7 +2,9 @@
 Find the river width (and other properties) from a masked water image
 
 get_river_width.py filename.tif
+
 input:    .tif file with region already masked for water. 0: no water, 1: water. 
+
 output:   maximum width (pixel count) along the river
 
 https://scikit-image.org/docs/dev/api/skimage.measure.html#skimage.measure.regionprops
