@@ -77,11 +77,6 @@ def main():
     # using max or mean width
     out_dist = np.round((np.max(dist)),2)
 
-    out = [np.str(out_dist),"\n"]
-    seperator = ', '
-
-    #with open("widths.csv", "a+") as myfile:
-    #    myfile.write(seperator.join(out))
     print(out_dist)
 
     return  out_dist
